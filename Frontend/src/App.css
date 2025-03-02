@@ -1,0 +1,171 @@
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet {
+  background: #005151 !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker {
+  width: 300px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+.react-datepicker__month-container {
+  width: 100%;
+}
+.react-datepicker__header {
+  text-align: center;
+  background-color: white !important;
+  border-bottom: none !important;
+  width: 20px;
+  border-top-left-radius: 60px !important;
+  padding: 20px !important;
+  position: relative;
+}
+.react-datepicker__day-names div {
+  margin: 5px;
+}
+.react-datepicker__navigation {
+  margin-top: 20px;
+}
+.react-datepicker__navigation--previous {
+  left: 230px !important;
+}
+.react-datepicker__day {
+  width: 33px !important;
+  height: 33px !important;
+  font-weight: 600;
+  line-height: 33px !important;
+}
+.react-datepicker__day:not([aria-disabled="true"]):hover {
+  border-radius: 50% !important;
+}
+.react-datepicker__day--selected {
+  border-radius: 50% !important;
+  background: #005151 !important;
+  color: #fff !important;
+}
+.react-datepicker__day--today {
+  background-color: rgb(202, 202, 202);
+  border-radius: 50% !important;
+}
+.react-datepicker__day--keyboard-selected {
+  border-radius: 50% !important;
+}
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+  display: none;
+}
+.react-datepicker__month .react-datepicker__month-text {
+  margin: 8px 0px !important;
+  font-size: 17px !important;
+  width: 5rem !important;
+}
+.react-datepicker__current-month {
+  font-size: x-large !important;
+}
+
+/* styles.css */
+.custom-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* scrollbar */
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background */
+  border-radius: 10px; /* Rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #6b7280, #4b5563); /* Gradient thumb */
+  border-radius: 10px; /* Rounded scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    #4b5563,
+    #374151
+  ); /* Darker gradient on hover */
+}
+
+/* .main {
+  width: calc(100vw - 280px);
+} */
+
+/* bg-[#005151] */
+
+li.page-item.active {
+  background-color: red;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005151;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ul.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.previous-item.disabled {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+li.page-item {
+  margin: 3px;
+}
+
+li.page-item a {
+  border: 1px solid #dbdbdb;
+  width: 28px;
+  height: 28px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+li.break-me {
+  border: 1px solid #dbdbdb;
+  width: 28px;
+  height: 28px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+li.next-class-name {
+  margin: 3px;
+}
+
+li.previous-class-name {
+  margin: 3px;
+}
+@media (min-width: 320px) and (max-width: 440px) {
+  .resume-flex {
+    flex-direction: column;
+  }
+
+  .button-select {
+    margin-right: 0;
+  }
+}

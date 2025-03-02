@@ -1,0 +1,10 @@
+runtime: nodejs20
+
+service: interview-ai-backend
+
+env_variables:
+  NODE_ENV: "production"
+
+handlers:
+  - url: /.*
+    script: auto

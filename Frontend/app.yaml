@@ -1,0 +1,18 @@
+runtime: nodejs18
+service: interview-ai-frontend
+
+
+env_variables:
+  NODE_ENV: 'production'
+  VITE_API_BASE_URL: 'https://nuxhealth-backend-dot-nuxhealth-449518.el.r.appspot.com/'
+
+handlers:
+  # Serve static assets (JS, CSS, images)
+  - url: /(.*\..+)$
+    static_files: dist/\1
+    upload: dist/(.*\..+)$
+
+  # Redirect all other routes to index.html (for React SPA routing)
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
