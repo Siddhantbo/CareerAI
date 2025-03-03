@@ -37,6 +37,6 @@ CareerAI is a web-based platform designed to help users enhance their career pro
 - **JWT & Bcrypt** - Enhances security with authentication tokens and password encryption.
 - **Cloudinary** - Handles image and media storage efficiently in the cloud.
 - **Nodemailer** - Facilitates automated email notifications and credential management.
-- **OpenAI/Gemini API** - Powers AI-driven career insights and interview feedback mechanisms.
+- **Gemini API** - Powers AI-driven career insights and interview feedback mechanisms.
 
 This platform empowers users to take control of their career growth with AI-driven tools, improving their job-readiness and confidence in the hiring process.
